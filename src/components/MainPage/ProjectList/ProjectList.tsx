@@ -12,7 +12,7 @@ function ProjectList() {
         return (
           <div
             key={prj.title}
-            className="mx-auto flex w-[90%] flex-col justify-start rounded-xl bg-white px-5 py-5 shadow-xl lg:px-20 lg:py-10"
+            className="mx-auto flex w-full flex-col justify-start rounded-xl bg-white px-5 py-5 shadow-xl lg:px-20 lg:py-10 xl:w-[90%]"
           >
             <Image
               src={prj.img}

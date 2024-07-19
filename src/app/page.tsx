@@ -13,7 +13,7 @@ export default function Home() {
         </h1>
         <h3 className="mt-16 text-3xl font-bold">주요 이력</h3>
         <PersonalBackgrounds />
-        <h3 className="mt-16 text-3xl font-bold">주요 기술 스택</h3>
+        <h3 className="mt-16 text-3xl font-bold">주요 개발 기술 스택</h3>
         <SkillStackSwiper />
         <h3 className="mt-8 text-3xl font-bold">연습 프로젝트 목록</h3>
         <ProjectList />
