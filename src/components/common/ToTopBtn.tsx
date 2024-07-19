@@ -3,7 +3,7 @@
 function ToTopBtn() {
   return (
     <button
-      className="fixed bottom-10 right-10 hidden h-[50px] w-[50px] rounded-[100%] bg-gray-200 shadow-md transition-transform duration-300 hover:-translate-y-2 md:block"
+      className="fixed bottom-10 right-10 h-[50px] w-[50px] rounded-[100%] bg-gray-200 shadow-md transition-transform duration-300 hover:-translate-y-2"
       onClick={() => {
         window.scrollTo({
           top: 0,
