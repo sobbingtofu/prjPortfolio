@@ -43,7 +43,7 @@ export const PROJECTS: {
     title: "Cafe-Pin",
     duration: "2024.06.15 ~ 2024.06.24",
     brief:
-      "카카오맵 api를 기반으로 카페에 대한 리뷰를 남기고 조회할 수 있는 수 있는 웹 어플리케이션",
+      "카카오맵 api를 기반으로 카페에 대한 리뷰를 남기고 조회할 수 있는 웹 어플리케이션",
     deployedLink: "https://prjcafepin.vercel.app/",
     githubLink: "https://github.com/sobbingtofu/prjcafepin",
     prjType: "team",
@@ -54,7 +54,7 @@ export const PROJECTS: {
     title: "공지기 - 공유지출기록장",
     duration: "2024.06.09 ~ 2024.06.14",
     brief:
-      "다수의 사용자가 함께 각자의 지출을 기록하고 관리하며 공유할 수 있는 공유 지출 기록 웹 어플리케이션",
+      "다수의 사용자가 각자의 지출을 함께 기록하고 관리할 수 있는 공유 지출 기록 웹 어플리케이션",
     deployedLink: "https://starndardyunledger.vercel.app/",
     githubLink: "https://github.com/sobbingtofu/prjDevelopedLedger",
     prjType: "individual",
