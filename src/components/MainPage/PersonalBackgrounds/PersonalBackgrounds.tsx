@@ -37,7 +37,12 @@ function PersonalBackgrounds() {
             </p>
           </div>
           <div className="mb-0 mt-[25px] flex w-full justify-end">
-            <Link href={"https://naver.com"} target="_blank">
+            <Link
+              href={
+                "https://docs.google.com/uc?export=download&id=1eb3LOlNnu9aSPs8ZPPew0H9N_37QOfmw"
+              }
+              target="_blank"
+            >
               <button className="mr-5 mt-6 flex items-center gap-4 rounded-lg bg-gray-200 px-10 py-5 shadow-md transition-colors hover:bg-gray-400">
                 <Image src={DownloadIcon} alt="download" className="w-8" />
                 <p className="mr-3">이력서 다운로드</p>
