@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import QueryProvider from "@/components/common/ReactQueryClientProvider";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Noto_Sans_KR({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "윤기준 개발 포트폴리오",
