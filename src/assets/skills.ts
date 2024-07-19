@@ -1,11 +1,11 @@
-import NextJsLogo from "./Nextjs-logo.png";
-import ReactLogo from "./React-logo.png";
-import ZustandLogo from "./Zustand-logo.png";
-import TanstackQueryLogo from "./TanstackQuery-logo.png";
-import TypeScriptLogo from "./Typescript-logo.png";
-import ReduxLogo from "./Redux-logo.png";
-import HTMLCSSJSLogo from "./HTML-CSS-JS-Logo.png";
-import TailWindCSSLogo from "./TailWindCSS-logo.png";
+import NextJsLogo from "./../../public/Nextjs-logo.png";
+import ReactLogo from "./../../public/React-logo.png";
+import ZustandLogo from "./../../public/Zustand-logo.png";
+import TanstackQueryLogo from "./../../public/TanstackQuery-logo.png";
+import TypeScriptLogo from "./../../public/Typescript-logo.png";
+import ReduxLogo from "./../../public/Redux-logo.png";
+import HTMLCSSJSLogo from "./../../public/HTML-CSS-JS-Logo.png";
+import TailWindCSSLogo from "./../../public/TailWindCSS-logo.png";
 import { StaticImageData } from "next/image";
 
 export const SKILLS: { skillName: string; logo: StaticImageData }[] = [

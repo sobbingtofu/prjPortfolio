@@ -5,6 +5,14 @@
 @layer utilities {
 }
 
+body {
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* CSS RESET */
 /* Prevent font size inflation */
 html {

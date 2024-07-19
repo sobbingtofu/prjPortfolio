@@ -15,7 +15,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "./style.css";
 
-import { SKILLS } from "../../../public/skills";
+import { SKILLS } from "../../../assets/skills";
 
 function SkillStackSwiper() {
   const skills = SKILLS;
@@ -46,7 +46,7 @@ function SkillStackSwiper() {
         {skills.map((skill) => {
           return (
             <SwiperSlide key={skill.skillName}>
-              <div className="flex flex-col rounded-3xl shadow-xl h-[250px] w-[250px] justify-center items-center">
+              <div className="flex flex-col rounded-3xl shadow-xl h-[250px] w-[250px] justify-center items-center bg-white">
                 <div className="relative h-[130px] w-[130px] rounded-3xl mx-5 mt-5">
                   <Image
                     src={skill.logo}
