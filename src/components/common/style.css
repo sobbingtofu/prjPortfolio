@@ -1,0 +1,14 @@
+.swiper {
+  width: 95%;
+  height: 320px;
+  --swiper-pagination-color: #797979;
+  --swiper-pagination-bullet-inactive-color: #848484;
+}
+
+.swiper-slide {
+  text-align: center;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
