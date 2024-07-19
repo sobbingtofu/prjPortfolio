@@ -46,7 +46,7 @@ function SkillStackSwiper() {
           return (
             <SwiperSlide key={skill.skillName}>
               <div className="flex h-[250px] w-[250px] flex-col items-center justify-center rounded-3xl bg-white shadow-xl">
-                <div className="relative mx-5 mt-5 h-[130px] w-[130px] rounded-3xl">
+                <div className="relative z-10 mx-5 mt-5 h-[130px] w-[130px] rounded-3xl">
                   <Image
                     src={skill.logo}
                     fill
