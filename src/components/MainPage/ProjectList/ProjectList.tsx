@@ -19,14 +19,14 @@ function ProjectList() {
               alt={prj.title}
               className="mx-auto w-[98%] md:w-[90%] lg:w-[full]"
             />
-            <div className="mx-auto mt-6 w-[98%] md:w-[90%] lg:w-[full]">
+            <div className="mx-auto mt-3 w-[98%] md:mt-6 md:w-[90%] lg:w-[full]">
               <div className="flex flex-col justify-between md:flex-row">
-                <h5 className="w-[400px] text-wrap text-xl font-semibold">
+                <h5 className="w-[400px] text-wrap text-lg font-semibold md:text-xl">
                   {prj.title}
                 </h5>
                 <p className="lg:text-md text-xs md:text-sm">{prj.duration}</p>
               </div>
-              <p className="mt-2">{prj.brief}</p>{" "}
+              <p className="mt-2 text-sm md:text-base">{prj.brief}</p>{" "}
             </div>
             <LinkButtons
               githubLink={prj.githubLink}
