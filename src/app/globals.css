@@ -5,13 +5,13 @@
 @layer utilities {
 }
 
-body {
+/* body {
   -ms-overflow-style: none;
 }
 
 ::-webkit-scrollbar {
   display: none;
-}
+} */
 
 /* CSS RESET */
 /* Prevent font size inflation */
@@ -19,6 +19,10 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+}
+
+::webkit-scrollbar-button {
+  display: none;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
