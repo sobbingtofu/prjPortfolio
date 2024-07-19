@@ -25,6 +25,12 @@ html {
   display: none;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /* Remove default margin in favour of better control in authored CSS */
 body,
 h1,
